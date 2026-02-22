@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Watchlist Hub",
+    "description": "A small web app based on the app Letterboxd extending to add extra features i believed it was missing",
+    "link": "https://watchlist-hub-9auwjxem.expo.app/home",
+    "repo": "https://github.com/illrem/WatchlistHub",
+    "tags": ["vanilla-js","ui"]
+  },
+  {
+    "title": "WFO",
+    "description": "An API service that does Y. Includes tests and CI.",
+    "link": "https://example.com/project-two",
+    "repo": "https://github.com/yourusername/project-two",
+    "tags": ["api","node"]
+  }
+]
