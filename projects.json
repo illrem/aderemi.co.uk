@@ -8,9 +8,16 @@
   },
   {
     "title": "WFO",
-    "description": "An API service that does Y. Includes tests and CI.",
-    "link": "https://example.com/project-two",
-    "repo": "https://github.com/yourusername/project-two",
+    "description": "A very basic website to display the results of an athlectics competition",
+    "link": "https://aderemi.co.uk/WFO/",
+    "repo": "https://github.com/illrem/WFO",
+    "tags": ["api","node"]
+  },
+  {
+    "title": "Kings heath clangers",
+    "description": "A very basic website for a local basketball team",
+    "link": "https://www.kingsheathclangers.com/",
+    "repo": "https://github.com/illrem/khc_website",
     "tags": ["api","node"]
   }
 ]
