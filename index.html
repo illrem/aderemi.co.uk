@@ -3,32 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Aderemi — Portfolio</title>
+    <title>Aderemi Ajidahun — Selected Work</title>
     <meta name="description" content="A small portfolio showcasing projects." />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <h1 class="site-title">Aderemi Ajidahun</h1>
-        <p class="site-tag">Software projects & experiments</p>
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Independent builder / Birmingham, UK</p>
+          <h1 class="site-title">Aderemi<br /><em>Ajidahun</em></h1>
+          <p class="site-tag">Software projects, experiments, and things worth clicking.</p>
+        </div>
+        <div class="hero-note">
+          <span class="status-dot"></span>
+          <span>Currently making<br /><strong>the internet more useful</strong></span>
+        </div>
       </div>
     </header>
 
-    <nav class="site-nav container">
+    <nav class="site-nav container" aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
+      <div class="theme-picker" aria-label="Choose a visual style">
+        <span class="theme-label">Style</span>
+        <button class="theme-button is-active" type="button" data-theme="signal" aria-label="Signal theme" title="Signal">01</button>
+        <button class="theme-button" type="button" data-theme="paper" aria-label="Paper theme" title="Paper">02</button>
+        <button class="theme-button" type="button" data-theme="tide" aria-label="Tide theme" title="Tide">03</button>
+      </div>
     </nav>
 
     <main class="container">
-      <section id="about" class="panel">
-        <h2>About</h2>
-        <p>Its ya boy Remi, you already know me.</p>
+      <section id="about" class="panel intro-panel">
+        <div class="section-marker">01 / About</div>
+        <div>
+          <h2>Making small things<br /><span>with big energy.</span></h2>
+          <p>Its Remi, you already know me. I build playful, practical web experiences and learn by shipping them.</p>
+        </div>
       </section>
 
       <section id="projects" class="panel">
-        <h2>Projects</h2>
+        <div class="section-heading">
+          <div class="section-marker">02 / Selected work</div>
+          <h2>Things I’ve made</h2>
+          <p class="project-count">A growing collection of useful experiments.</p>
+        </div>
         <div id="projects-grid" class="grid">
           <noscript>
             <p>Please enable JavaScript to load the project list.</p>
@@ -36,9 +56,12 @@
         </div>
       </section>
 
-      <section id="contact" class="panel">
-        <h2>Contact</h2>
-        <p>Find me on <a href="https://github.com/illrem" target="_blank" rel="noopener">GitHub</a> or email <a href="mailto:remiajidahun@outlook.com">remiajidahun@outlook.com</a>.</p>
+      <section id="contact" class="panel contact-panel">
+        <div class="section-marker">03 / Say hello</div>
+        <div>
+          <h2>Have a good idea?</h2>
+          <p>Find me on <a href="https://github.com/illrem" target="_blank" rel="noopener">GitHub</a> or email <a href="mailto:remiajidahun@outlook.com">remiajidahun@outlook.com</a>.</p>
+        </div>
       </section>
     </main>
 

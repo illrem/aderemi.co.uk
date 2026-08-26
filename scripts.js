@@ -4,6 +4,11 @@ function createProjectCard(p){
   const card = document.createElement('article');
   card.className = 'card';
 
+  const index = document.createElement('span');
+  index.className = 'card-index';
+  index.textContent = String(document.querySelectorAll('.card').length + 1).padStart(2, '0');
+  card.appendChild(index);
+
   const h3 = document.createElement('h3');
   h3.textContent = p.title;
   card.appendChild(h3);
@@ -25,13 +30,13 @@ function createProjectCard(p){
   }
 
   const links = document.createElement('div');
-  links.style.marginTop = '12px';
+  links.className = 'card-links';
   if(p.link){
     const a = document.createElement('a');
     a.href = p.link;
     a.target = '_blank';
     a.rel = 'noopener';
-    a.textContent = 'Live';
+    a.textContent = 'View project ↗';
     links.appendChild(a);
   }
   if(p.repo){
@@ -41,7 +46,7 @@ function createProjectCard(p){
     r.href = p.repo;
     r.target = '_blank';
     r.rel = 'noopener';
-    r.textContent = 'Repo';
+    r.textContent = 'Source ↗';
     links.appendChild(r);
   }
   card.appendChild(links);
@@ -63,4 +68,13 @@ async function loadProjects(){
 }
 
 document.getElementById('year').textContent = new Date().getFullYear();
+
+document.querySelectorAll('.theme-button').forEach(button => {
+  button.addEventListener('click', () => {
+    document.body.dataset.theme = button.dataset.theme;
+    document.querySelector('.theme-button.is-active')?.classList.remove('is-active');
+    button.classList.add('is-active');
+  });
+});
+
 loadProjects();

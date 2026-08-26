@@ -1,5 +1,12 @@
 [
   {
+    "title": "Where is Remi?",
+    "description": "A playful way to keep track of where I am and what I am up to",
+    "link": "https://aderemi.co.uk/WhereisRemi/",
+    "repo": "https://github.com/illrem/WhereisRemi",
+    "tags": ["maps", "web"]
+  },
+  {
     "title": "Watchlist Hub",
     "description": "A small web app based on the app Letterboxd extending to add extra features i believed it was missing",
     "link": "https://watchlist-hub-9auwjxem.expo.app/home",
@@ -8,7 +15,7 @@
   },
   {
     "title": "WFO",
-    "description": "A very basic website to display the results of an athlectics competition",
+    "description": "A very basic website to display the results of an athletics competition",
     "link": "https://aderemi.co.uk/WFO/",
     "repo": "https://github.com/illrem/WFO",
     "tags": ["api","node"]
