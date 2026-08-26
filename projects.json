@@ -36,6 +36,7 @@
   {
     "title": "Tactic-Toe",
     "description": "An online browser-based puzzle and board game built with Vue.js and Socket.IO.",
+    "link": "https://aderemi.co.uk/Tactic-Toe/",
     "repo": "https://github.com/illrem/Tactic-Toe",
     "tags": ["vue", "socketio", "game"]
   }
