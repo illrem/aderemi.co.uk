@@ -26,5 +26,17 @@
     "link": "https://www.kingsheathclangers.com/",
     "repo": "https://github.com/illrem/khc_website",
     "tags": ["api","node"]
+  },
+  {
+    "title": "Hybrid App Blocker",
+    "description": "An Android app that helps you focus by unlocking time on distracting apps after you spend the same amount of time in a chosen group of productive apps, such as allowing 1 hour of Instagram after 1 hour of Duolingo.",
+    "repo": "https://github.com/illrem/HybridAppBlocker",
+    "tags": ["android", "focus"]
+  },
+  {
+    "title": "Tactic-Toe",
+    "description": "An online browser-based puzzle and board game built with Vue.js and Socket.IO.",
+    "repo": "https://github.com/illrem/Tactic-Toe",
+    "tags": ["vue", "socketio", "game"]
   }
 ]
